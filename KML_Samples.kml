@@ -103,7 +103,6 @@
       </BalloonStyle>
     </Style>
     <Folder>
-      
       <name>Placemarks</name>
       <description>These are just some of the different kinds of placemarks with
         which you can mark your favorite places</description>
@@ -115,8 +114,6 @@
         <tilt>40.5575073395506</tilt>
         <range>500.6566641072245</range>
       </LookAt>
-      <Placemark> <name>Simple placemark</name> <description> PatientId:AHM_CITY_101</description><Point><coordinates> 23.0224230000000000, 72.5093608000000000,0</coordinates></Point></Placemark>
-
       <Placemark>
         <name>Simple placemark</name>
         <description>Attached to the ground. Intelligently places itself at the
