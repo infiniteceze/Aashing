@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   
-  <Placemark> <name>Simple placemark</name> <description> PatientId:AHM_CITY_101</description><Point><coordinates> 23.0224230000000000, 72.5093608000000000,0</coordinates></Point></Placemark>
+  <Placemark> 
+    <name>Simple placemark
+    </name> 
+    <description> PatientId:AHM_CITY_101
+    </description>
+    <Point>
+      <coordinates> 23.0224230000000000, 72.5093608000000000,0
+      </coordinates>
+    </Point>
+  </Placemark>
 
   
   </kml>
