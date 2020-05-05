@@ -50,7 +50,7 @@ service_count = 1
 
 
 fields = ['Name', 'Phone', 'Rating', 'Rating Count', 'Address', 'Location']
-out_file = open('Readymade-Garment-Retailers_agra.csv','w')
+out_file = open('Book1.csv','w')
 csvwriter = csv.DictWriter(out_file, delimiter=',', fieldnames=fields)
 
 # Write fields first
@@ -62,7 +62,7 @@ while True:
 	if page_number > 50:
 		break
 
-	url="https://www.justdial.com/Agra/Readymade-Garment-Retailers/nct-10401947/page-%s" % (page_number)
+	url="https://www.justdial.com/Pune/Septic-Tank-Cleaning-Services/nct-11176089" % (page_number)
 	req = urllib.request.Request(url, headers={'User-Agent' : "Magic Browser"}) 
 	page = urllib.request.urlopen( req )
 	# page=urllib2.urlopen(url)
